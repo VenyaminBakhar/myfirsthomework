@@ -3,9 +3,9 @@ package task4;
 /**
  * Created by Вениамин on 6/25/2017.
  */
-public class Onedimensionalarrays {
+class Onedimensionalarrays {
 
-    public static void maxAmount(double... values) {
+    static void maxAmount(double... values) {
         double[] arrOfValues = new double[values.length];
         double[] valuesAmounts = new double[arrOfValues.length / 2];
         int index = 0;

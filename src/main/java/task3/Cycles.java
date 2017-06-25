@@ -3,8 +3,11 @@ package task3;
 /**
  * Created by Вениамин on 6/25/2017.
  */
-public class Cycles {
-    public static void function(double a, double b, double h) {
+class Cycles {
+
+    Cycles(){}
+
+    public  void function(double a, double b, double h) {
         double boundaryValue = (b - a) / h;
         int countOfSteps = boundaryValue % 1.0D == 0.0D?(int)boundaryValue - 1:(int)boundaryValue;
 

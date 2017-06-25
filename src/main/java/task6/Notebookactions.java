@@ -6,7 +6,10 @@ import java.util.LinkedList;
 /**
  * Created by Вениамин on 6/25/2017.
  */
-public class Notebookactions implements Actions {
+class Notebookactions implements Actions {
+
+    Notebookactions(){}
+
 
     public void addNote(Notebook obj, String note) {
         obj.getList().add(note);

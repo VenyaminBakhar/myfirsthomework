@@ -5,10 +5,16 @@ import java.util.LinkedList;
 /**
  * Created by Вениамин on 6/25/2017.
  */
-public class Notebook {
-    private LinkedList<String> list = new LinkedList();
+class Notebook {
+    private LinkedList<String> list = new LinkedList<String>();
 
-    Notebook() {
+    Notebook(String... values) {
+        for (String s : values){
+            list.add(s);
+        }
+    }
+
+    Notebook(){
     }
 
     LinkedList<String> getList() {
